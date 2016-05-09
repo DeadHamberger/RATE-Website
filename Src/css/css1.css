@@ -138,13 +138,7 @@
 	-moz-transform: scale(1.1);
 }
 
-.whatWeDo {
 
-	background-color: #77FF77;
-	width: auto;
-	height: 800px;
-
-}
 
 .bestTitle {
 
@@ -154,6 +148,11 @@
 	font-weight: 400;
 	font-family: "Source Sans pro";
 	text-align: center;
+	margin: auto;
+	width: 90%;
+	border: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 
 }
 .best {
@@ -164,6 +163,8 @@
 	font-weight: 300;
 	font-family: "Source Sans pro";
 	text-align: center;
+	margin: auto;
+	width: 90%;
 
 }
 
@@ -175,6 +176,8 @@
 	font-weight: 300;
 	font-family: "Source Sans pro";
 	text-align: center;
+	margin: auto;
+	width: 90%;
 
 }
 
@@ -186,16 +189,23 @@
 	font-weight: 400;
 	font-family: "Source Sans pro";
 	text-align: center;
+	margin: auto;
+	width: 90%;
 
 }
 .dreamSite {
 
+	margin: auto;
+	width: 90%;
 	background-color: #339;
 	color: #EEE;
 	font-size: 35px;
 	font-weight: 300;
 	font-family: "Source Sans pro";
 	text-align: center;
+	border: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 
 }
 
@@ -207,5 +217,7 @@
 	font-weight: 300;
 	font-family: "Source Sans pro";
 	text-align: center;
+	margin: auto;
+	width: 90%;
 
 }
