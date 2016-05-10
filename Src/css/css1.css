@@ -1,6 +1,17 @@
 /*
 	(C) RATE Web Design 2016. All rights reserved.
 */
+
+body {
+
+	max-height: 600px;
+	min height: 500px;
+
+}
+
+
+
+
 .headerText {
 
 	color: #FFF;
@@ -36,7 +47,7 @@
 
 .headerText:hover {
 
-	padding-top: 30px;
+	padding-top: 20px;
 
 }
 .headerText2 {
@@ -165,7 +176,7 @@
 	text-align: center;
 	margin: auto;
 	width: 90%;
-	height: 75px;
+	height: 90px;
 
 	transition: height, .3s;
 	-webkit-transition: height, .3s;
@@ -244,12 +255,12 @@
 	background-color: #AAE;
 	color: #EEE;
 	font-size: 70px;
-	font-weight: 300;
+	font-weight: 400;
 	font-family: "Source Sans pro";
 	text-align: center;
 	margin: auto;
 	width: 90%;
-	height: 60px;
+	height: 75px;
 	padding-bottom: 5px;
 
 
@@ -264,6 +275,7 @@ dreamSiteTitle:hover {
 	height: 100%
 	width: 100%;
 	padding-top: 30px;
+	padding-bottom: 26px;
 	opacity: 0;
 	transition: opacity, .2s;
 	-webkit-transition: opacity, .2s;
@@ -273,3 +285,21 @@ dreamSiteTitle:hover {
 }
 
 .textChangeOpaci:hover {opacity:1}
+
+.whatWeDo {
+
+	background-color: #77ff77;
+	height: 800px;
+
+}
+
+.dwnArrow {
+
+	width: 10%;
+	height:19%;
+	margin: 0 auto;
+	padding-top: 15px;
+
+
+
+}
