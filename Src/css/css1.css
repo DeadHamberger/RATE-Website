@@ -2,6 +2,11 @@
 	(C) RATE Web Design 2016. All rights reserved.
 */
 
+@font-face {
+    font-family: Open sans pro;
+    src: url(OpenSans-regular.ttf);
+}
+
 body {
 
 	max-height: 600px;
@@ -114,7 +119,7 @@ body {
 
 .contactBtn {
 
-	background-color: #339;
+	background-color: #AAE;
 	font-family: "Source sans pro";
 	font-size: 50px;
 	font-weight:bold;
@@ -126,7 +131,7 @@ body {
 	padding-bottom: .07px;
 	border-width: 4px;
 	border-radius: 3px;
-	border-color: #339;
+	border-color: #aae;
 	border-style: solid;
 	margin-left: auto;
 	margin-right: auto;
@@ -284,7 +289,11 @@ dreamSiteTitle:hover {
 
 }
 
-.textChangeOpaci:hover {opacity:1}
+.textChangeOpaci:hover {
+
+	opacity:1
+
+}
 
 .whatWeDo {
 
@@ -295,11 +304,24 @@ dreamSiteTitle:hover {
 
 .dwnArrow {
 
+	display: block;
+	width: 9%;
+	height: auto;
+	margin: auto;
+	padding-top: 25px;
+	opacity: .6;
+
+	transition: height 0.2s, width 0.2s;
+	-webkit-transition: height 0.2s, width 0.2s;
+	-o-transition: height 0.2s, width 0.2s;
+	-moz-transition: height 0.2s, width 0.2s;
+}
+
+.dwnArrow:hover {
+
 	width: 10%;
-	height:19%;
-	margin: 0 auto;
-	padding-top: 15px;
-
-
+	height: auto;
 
 }
+
+.paddingforcontactbtn {padding-top: 50px;}
